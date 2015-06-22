@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<head>
+		<title>javascript test</title>
+	</head>
+	<body>
+	<style>
+	a {
+		text-decoration: underline;
+		}
+	a:hover {
+		color:red;
+		cursor:pointer;
+		}
+	</style>
+	<nav>
+	</nav>
+		<a onclick="image(0)">Ace</a>
+		<a onclick="image(1)">Two</a>
+		<a onclick="image(2)">Three</a>
+		<a onclick="image(3)">Four</a>
+		<a onclick="image(4)">Eight</a>
+		<a onclick="image(5)">Jack</a>
+		<a onclick="image(6)">Queen</a>
+		<a onclick="image(7)">King</a>
+		
+		<img id="img" height="200" width="140"/>
+	
+	<script>
+		var array = ["cards.png", "2.png","3.png","4.png","8.png","jack.jpg","queen.jpg","king.jpg"];
+		
+		
+		function image(img)
+		{
+			document.getElementById("img").src ="cards/" + array[img];
+		}
+		
+		
+		
+		
+	
+		
+	</script>
+	</body>
+</html>
