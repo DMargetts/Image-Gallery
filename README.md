@@ -1,1 +1,1 @@
-# Image-Gallery
+A basic javascript image gallery
